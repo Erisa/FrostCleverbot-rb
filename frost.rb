@@ -14,8 +14,8 @@ bot.ready do |event|
 end
 
 bot.message do |event|
-    event.channel.start_typing
     if event.message.content.include?("<@#{bot.profile.id}>") or event.message.content.include?("<@#{bot.profile.id}>")
+        event.channel.start_typing
         message = event.message.content.gsub("<@#{bot.profile.id}>", '')
         message = message.gsub("<@!#{bot.profile.id}>", '')
         response = frost.say(message)
