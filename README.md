@@ -1,7 +1,7 @@
 # FrostCleverbot-rb
 Super simple Ruby Discord Cleverbot inspired by https://github.com/jagrosh/FrostCleverbot
 
-If you want this bot in your server quickly, chceck out the above link, it does exactly the same thing :P<br />
+If you want this bot in your server quickly, check out the above link, it does exactly the same thing :P<br />
 If you want to host this Ruby version, keep reading...
 
 ## Installing (Running locally)
